@@ -35,4 +35,5 @@ const yes = document.getElementById("yesbtn");
 yes.addEventListener("click", () => {
     // button.style.display = "none";
     window.location.href = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
+    window.location.target = "_blank";
 });
